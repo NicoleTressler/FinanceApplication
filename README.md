@@ -3,21 +3,22 @@
 A desktop application for tracking expenses and building savings habits,
 built with Python's Tkinter (GUI), SQLite (storage), and Matplotlib (charts).
 
+
 ## Features
 
 - **Expense categorization** — log expenses under built-in categories (Food, Housing,
-  Transportation, Utilities, Entertainment, etc.) with date and description.
-- **Monthly budgets** — set a budget per category per month and see spend vs. budget
-  with color-coded progress bars (green / yellow / red).
+  Transportation, Utilities, Entertainment, other.) with date and an option for a description.
+
+- **Monthly budgets** — set a budget per category per month and see spend vs. budget with color-coded progress bars (green / yellow / red).
+
 - **Financial charts** — pie chart of spending by category, bar chart of budget vs.
-  actual, and a line chart of your spending trend over recent months.
-- **Recurring payments** — define bills/subscriptions (daily, weekly, monthly, or
-  yearly) that are automatically posted as expenses whenever their due date arrives
-  (checked each time the app starts, catching up on anything missed).
-- **Savings goals** — set a target amount and optional deadline, then log
-  contributions and watch a progress bar fill in.
-- **Spending alerts** — get a warning at 80% of a category budget and an alert when
-  a budget is exceeded, both on the Dashboard and when adding an expense.
+  actual, and a line chart of spending trend over recent months.
+
+- **Recurring payments** — define bills/subscriptions (daily, weekly, monthly, or yearly) that are automatically posted as expenses whenever their due date arrives (checked each time the app starts, catching up on anything missed).
+
+- **Savings goals** — set a target amount and optional deadline, then log contributions and watch a progress bar fill in.
+
+- **Spending alerts** — get a warning at 80% of a category budget and an alert when a budget is exceeded, both on the Dashboard and when adding an expense.
 
 
 
@@ -51,3 +52,5 @@ expense_manager/
 - Dates are entered as `YYYY-MM-DD` and months as `YYYY-MM`.
 
 - All amounts are treated as a single currency with "$".
+
+- Add function to edit an entry for "Budget".
